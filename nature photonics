@@ -1,0 +1,15 @@
+SMC-EHA-System/
+├── LICENSE                 <-- Der rechtliche Schutztext (CERN-OHL-W v2)
+├── README.md               <-- Die Gesamtdokumentation (Das fertige Paket von oben)
+├── .gitignore              <-- Filtert temporäre Simulations-Daten heraus
+├── theory_and_math/
+│   └── whitepaper.pdf      <-- Das exportierte wissenschaftliche Dokument
+├── chemistry_synthesis/
+│   └── formulation_recipe.txt <-- Die genaue chemische Mischung & Substratbeschichtung
+├── simulation_gromacs/
+│   ├── em.mdp              <-- Energie-Minimierungsskript
+│   ├── eq_350k.mdp         <-- Flüssig-Äquilibrierungsskript
+│   └── quenching_180k.mdp  <-- Das kritische Schock-Einfrierskript
+└── simulation_comsol/
+    ├── tensor_formulas.txt <-- Die mathematischen Permittivitäts-Formeln
+    └── mesh_config.ini     <-- Vorgaben für das Nanometer-Netzgitter
