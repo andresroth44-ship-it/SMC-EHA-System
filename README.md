@@ -11,6 +11,7 @@ To navigate the complete architecture of the SMC-EHA platform, explore the speci
 1. **[GLOSSARY.md](./GLOSSARY.md)** – Comprehensive definitions of the core physical, quantum-optical, and thermodynamic terms used across this specification.
 2. **[WARP_METRIC.md](./WARP_METRIC.md)** – Advanced mathematical mapping of transformation optics, negative group velocity, and the photonic Alcubierre warp analog.
 3. **[TOPOLOGICAL_COMPUTING.md](./TOPOLOGICAL_COMPUTING.md)** – Specification for utilizing the matrix as an analog, non-linear optical equation solver for Navier-Stokes and Schrödinger equations.
+4. **[OPTOMECHANICAL_INTERFACE.md](./OPTOMECHANICAL_INTERFACE.md)** – Design and parameters for the high-isolation quantum interface using an inertially balanced nano-membrane.
 
 ---
 
