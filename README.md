@@ -13,6 +13,7 @@ To navigate the complete architecture of the SMC-EHA platform, explore the speci
 3. **[TOPOLOGICAL_COMPUTING.md](./TOPOLOGICAL_COMPUTING.md)** – Specification for utilizing the matrix as an analog, non-linear optical equation solver for Navier-Stokes and Schrödinger equations.
 4. **[OPTOMECHANICAL_INTERFACE.md](./OPTOMECHANICAL_INTERFACE.md)** – Design and parameters for the high-isolation quantum interface using an inertially balanced nano-membrane.
 5. **[GEIST_PARTICLE_QUANTUM_DYNAMICS.md](./GEIST_PARTICLE_QUANTUM_DYNAMICS.md)** – Mathematical modeling of massive baryonic particle trapping and delayed-choice quantum ghost state mechanics.
+6. **[QUANTUM_TELEPORTATION_PROTOCOL.md](./QUANTUM_TELEPORTATION_PROTOCOL.md)** – Specifications for the non-local state injection pipeline via Bell-State Measurements and inverse Pauli transformations.
 
 ---
 
