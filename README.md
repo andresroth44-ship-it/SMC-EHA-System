@@ -14,6 +14,7 @@ To navigate the complete architecture of the SMC-EHA platform, explore the speci
 4. **[OPTOMECHANICAL_INTERFACE.md](./OPTOMECHANICAL_INTERFACE.md)** – Design and parameters for the high-isolation quantum interface using an inertially balanced nano-membrane.
 5. **[GEIST_PARTICLE_QUANTUM_DYNAMICS.md](./GEIST_PARTICLE_QUANTUM_DYNAMICS.md)** – Mathematical modeling of massive baryonic particle trapping and delayed-choice quantum ghost state mechanics.
 6. **[QUANTUM_TELEPORTATION_PROTOCOL.md](./QUANTUM_TELEPORTATION_PROTOCOL.md)** – Specifications for the non-local state injection pipeline via Bell-State Measurements and inverse Pauli transformations.
+7. **[THERMODYNAMIC_AUDIT.md](./THERMODYNAMIC_AUDIT.md)** – Formal validation matrices checking the system against the 1st and 2nd laws of thermodynamics via invariant field conservation.
 
 ---
 
