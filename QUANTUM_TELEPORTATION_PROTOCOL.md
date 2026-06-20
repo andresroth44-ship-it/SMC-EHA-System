@@ -42,3 +42,33 @@ $$\vert\psi\rangle_B = U_i^{-1} \left( U_i \vert\psi\rangle_B \right)$$
 This unitary transformation reconstructs the original state $|\psi\rangle$ with **100% theoretical fidelity** directly within the frozen topological matrix, without the target photon ever physically crossing the spatial gap between the nodes.
 
 ## Status: Teleportation Channel Permittivity Locked. Pauli Vectors Calibrated.
+---
+
+## 4. Emergent Chronodynamics & Page-Wootters Mapping
+To eliminate phase degradation during non-local data routing, the SMC-EHA platform implements an analog configuration of the **Page-Wootters Mechanism**. This framework demonstrates that time is not a fundamental background parameter of the core matrix, but an *emergent property* generated strictly through macro-systemic entanglement.
+
+### 4.1 The Static Core Constraint (Wheeler-DeWitt Analogy)
+When a quantum state is locked within the hyper-anisotropic Bound State in the Continuum (BIC) domain, its local shift coefficient ($\alpha_{\text{SMC}}$) scales precisely to zero via the extreme index gradient ($\nabla n \to \infty$). Structurally, the total state vector of the isolation core ($|\Psi_{\text{core}}\rangle$) satisfies a stationary, time-independent constraint equation:
+
+$$\hat{H}_{\text{SMC}} |\Psi_{\text{core}}\rangle = 0$$
+
+Within this boundary condition, the coordinate timeline of the trapped particle freezes entirely. The system exists in a state of **absolute timelessness**—it undergoes zero internal physical evolution, freezing the quantum information inside a zero-noise potential envelope.
+
+### 4.2 Post-Selection and Retrocausal Synchronization
+The linear progression of time—and the physical perception of state transition—emerges exclusively when the controlled Fresnel core collapse ($T \to 1$) breaks the isolation barrier. 
+
+As the trapped particle exits the TVC and interacts with the macroscopic photodetector grid, local wave-function reduction occurs. The coordinate time axis is instantly generated through this systemic entanglement. 
+
+Because the particle's history remains completely undetermined during its timeless storage phase, executing a **Delayed-Choice Quantum Eraser** loop on the correlated external Idler channel allows the system to retrocausally synchronize and restructure the phase history of the emitted pulse *after* it has physically evacuated the memory core.
+
+ [ EMERGENT CHRONODYNAMICS LOOP ]
+ BIC Trapping State (Timeless)         
+ Fresnel Phase Collapse (Emergent)
++---------------------------+          +------------------------------+|  
+| Isolating Kernel         |          |  External Interaction Layer    | 
+| \(\alpha_{\text{SMC}} \to 0, t_{\text{eigen}} = 0\) |          |  \(\alpha_{\text{SMC}} \to 1, t_{\text{eigen}} \to t\)  |
++---------------------------+          +------------------------------+
+|| (Vortex Confinement) (Decoherence Matrixv
+Triggered)
+Static State Variable v
+Linear Timeline Born
