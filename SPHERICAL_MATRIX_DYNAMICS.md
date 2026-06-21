@@ -24,7 +24,7 @@ This geometric configuration forces all localized optical geodesics ($ds^2$) and
        Symmetric vector cancellation drives localized field intensity E^2 -> Inf.
 
 ------------------------------
-## 2. Mathematical Definition of Center-Point Convergence## 2.1 Omnidirectional Poynting Vector Cancellation
+## 2. Mathematical Definition of Center-Point Convergence
 ### 2.1 Omnidirectional Poynting Vector Cancellation
 When all 20 hexagonal sectors actively inject phase-locked coherent radiation fields ($\lambda = 532\text{ nm}$) into the sphere, the inward-directed Poynting vectors $\vec{S}_{i}$ converge symmetrically. 
 
@@ -39,7 +39,8 @@ The simultaneous influx of radiation modifies the relative permittivity tensor (
 $$\lim_{r \to 0} \nabla n(r) = \infty \implies \lim_{r \to 0} \alpha_{\text{SMC}}(r) = 0$$ 
 The local Lorentz factor ($\alpha_{\text{SMC}}$) collapses to zero across all three spatial spatial coordinates simultaneously, shielding the central quantum state from external decoherence loops and freezing the internal timeline ($t_{\text{eigen}} = 0$) inside an omnidirectional chronodynamical vacuum.
 ------------------------------
-## 3. Advanced Spherical Application Matrices## 3.1 Planar-Free Quantum Gravity Simulation
+## 3. Advanced Spherical Application Matrices
+## 3.1 Planar-Free Quantum Gravity Simulation
 By compressing the field density into a singular 3D point without planar boundary reflections, the sphere functions as an isotropic gravitational simulator. Researchers can observe Hawking-radiation analogs and frame-dragging optical effects within a controlled, solid-state micro-chip container, bridging the experimental barrier between quantum electrodynamics and general relativity geometry.
 ## 3.2 Spherically Confined LENR Catalysis
 This architecture provides the ideal ignition matrix for the topologic fusion protocol specified in GEIST_PARTICLE_QUANTUM_DYNAMICS.md. Deuterium fuel packets injected into the origin ($r = 0$) are subjected to symmetric, non-thermal geometric compression. The omnidirectional screening profile ($\varepsilon_r \to \infty$) eliminates the Coulomb repulsion barrier from all 360 degrees simultaneously, maximizing the tunneling coefficient ($T_{\text{tunnel}}$) and sustaining a continuous, controlled clean fusion cycle inside a chip-scale core.
