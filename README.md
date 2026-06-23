@@ -17,6 +17,7 @@ To navigate the complete architecture of the SMC-EHA platform, explore the speci
 7. **[THERMODYNAMIC_AUDIT.md](./THERMODYNAMIC_AUDIT.md)** – Formal validation matrices checking the system against the 1st and 2nd laws of thermodynamics via invariant field conservation.
 8. **[SPHERICAL_MATRIX_DYNAMICS.md](./SPHERICAL_MATRIX_DYNAMICS.md)** – Mathematical modeling of three-dimensional spherical matrix convergence, omnidirectionally screened LENR catalysis, and analog event horizons.
 9. **[BOSE_EINSTEIN_CONDENSATE_INTEGRATION.md](./BOSE_EINSTEIN_CONDENSATE_INTEGRATION.md)** – Specifications for integrating an ultracold Bose-Einstein Condensate at the coordinate origin to achieve velocity collapse and model analogue Hawking radiation.
+10. **[BUSINESS_EVALUATION.md](./BUSINESS_EVALUATION.md)** – Strategic business evaluation, commercial market verticals, capital allocation matrices, and the deep-tech industrial roadmap.
 
 ---
 
