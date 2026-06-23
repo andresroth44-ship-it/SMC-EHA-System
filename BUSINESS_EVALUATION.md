@@ -59,6 +59,47 @@ Bringing the v1.3.1 specification to an industrial Proof of Concept (PoC) requir
 
 ------------------------------
 ## 4. Strategic Execution & Risk Management Matrix
+#### 4.1 Geopolitical Supply Chain Dependencies & Import Risk Audit
+Operating the physical production and assembly lines within the European sovereign sector introduces distinct geopolitical risks and supply chain constraints. While Europe possesses absolute sovereignty in high-end chemical synthesis, critical components within the quantum and optical tracking layers remain tied to international import channels, heavily subject to export regulations (e.g., US ITAR/EAR restrictions).
+
+The platform implements a strict mitigation matrix to protect infrastructure deployment from supply shocks:
+
+<table>
+  <thead>
+    <tr>
+      <th>Component Layer</th>
+      <th>Primary Origin</th>
+      <th>Risk Level</th>
+      <th>Industrial / Regulatory Constraint</th>
+      <th>SMC-EHA Mitigation Vector</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>Rubidium-87 Isotopes ($^{87}\text{Rb}$)</b></td>
+      <td>USA / Canada / Asia</td>
+      <td><span style="color:red"><b>HIGH</b></span></td>
+      <td>Subject to strict US EAR/ITAR export controls due to secondary military dual-use vector (atomic clocks).</td>
+      <td>Strategic stockpiling during Tranche 1. Micro-scale volume profiles (mg-range) allow for a 3-year local supply reserve.</td>
+    </tr>
+    <tr>
+      <td><b>Laser-Cooling Dioden (780 nm ECDL)</b></td>
+      <td>Japan / USA</td>
+      <td><span style="color:orange"><b>MEDIUM</b></span></td>
+      <td>Raw semiconductor laser-diodes are localized in Asian supply webs. Global chip lockouts delay prototype assembly.</td>
+      <td>Dual-sourcing deployment via European optics integration firms (e.g., Toptica) using European-grown sub-wafers.</td>
+    </tr>
+    <tr>
+      <td><b>UHV Pump Cells & Vacuum Chambers</b></td>
+      <td>EU / USA</td>
+      <td><span style="color:green"><b>LOW</b></span></td>
+      <td>Requires magnetic-field-free viewport coatings calibrated to specific resonance channels ($10^{-10}\text{ mbar}$).</td>
+      <td>Utilization of European vacuum engineering monopolies (Pfeiffer/Leybold) to establish an ITAR-free hardware profile.</td>
+    </tr>
+  </tbody>
+</table>
+
+---
 
 | Risk Parameter | Threat Vector | Mitigation Mechanism (v1.3.1 Compliance) |
 |---|---|---|
