@@ -1,7 +1,6 @@
+# SECTION 2: ADVANCED TRANSFORMATION OPTICS & THE PHOTONIC ALCUBIERRE WARP METRIC
 
-## SECTION 2: ADVANCED TRANSFORMATION OPTICS & THE PHOTONIC ALCUBIERRE WARP METRIC
-
-## 1. Theoretical Foundation: Analog Space-Time MetricsThe SMC-EHA core exploits the structural mathematical isomorphism between electrodynamics in anisotropic, inhomogeneous media and the behavior of fields within a curved spacetime metric as defined by Albert Einstein's General Theory of Relativity. 
+## 1. Theoretical Foundation: Analog Space-Time Metrics The SMC-EHA core exploits the structural mathematical isomorphism between electrodynamics in anisotropic, inhomogeneous media and the behavior of fields within a curved spacetime metric as defined by Albert Einstein's General Theory of Relativity. 
 
 By engineering a dynamic spatial coordinate shift via extreme anomalous birefringence ($\Delta n > 0.40$), the active fluid matrix alters the effective spacetime curvature felt by incoming wavepackets ($\lambda = 532\text{ nm}$).
 ---
