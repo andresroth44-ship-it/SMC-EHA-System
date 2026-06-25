@@ -15,7 +15,8 @@ The Supercooled Mesomorphic Crystalline Event Horizon Absorber (SMC-EHA) platfor
 *   **Topological Charge Profile:** $q = \pm 1/2$ stable disclination core generated via photoalignment.*
 *   **Molecular Stabilization Frame:** Interpenetrating photopolymerized reactive mesogen network (RM257).*
 *   **Substrate Anchoring Layer:** High-relevance photoalignment azo-dye (SD1).
-    ## CHAPTER II: MOLECULAR DYNAMICS SIMULATION SCENARIOS### 1. em.mdp (Energy Minimization Protocol)```text
+    ## CHAPTER II: MOLECULAR DYNAMICS SIMULATION SCENARIOS
+    ### 1. em.mdp (Energy Minimization Protocol)```text
 integrator               = steep
 emtol                    = 100.0
 emstep                   = 0.01
