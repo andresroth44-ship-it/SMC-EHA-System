@@ -8,6 +8,7 @@ This repository contains the complete open-source physical specification, molecu
 
 To navigate the complete architecture of the SMC-EHA platform, explore the specialized sub-specifications below:
 
+0. **[SMC-EHA_The_Book.md](./SMC-EHA_The_Book.md)** – **The Complete Orbital Compendium (v1.5.0):** The definitive full-length textbook merging all physical, simulation, industrial, and cinematic layers into a single un-decaying master file.
 1. **[GLOSSARY.md](./GLOSSARY.md)** – Comprehensive definitions of the core physical, quantum-optical, and thermodynamic terms used across this specification.
 2. **[WARP_METRIC.md](./WARP_METRIC.md)** – Advanced mathematical mapping of transformation optics, negative group velocity, and the photonic Alcubierre warp analog.
 3. **[TOPOLOGICAL_COMPUTING.md](./TOPOLOGICAL_COMPUTING.md)** – Specifications for utilizing the matrix as an analog, non-linear optical equation solver for Navier-Stokes, Schrödinger (NLSE), logarithmic Kummer-series, and biomimetic neuromorphic (Hodgkin-Huxley/Positronic) systems.
@@ -18,7 +19,6 @@ To navigate the complete architecture of the SMC-EHA platform, explore the speci
 8. **[SPHERICAL_MATRIX_DYNAMICS.md](./SPHERICAL_MATRIX_DYNAMICS.md)** – Mathematical modeling of three-dimensional spherical matrix convergence, omnidirectionally screened LENR catalysis, and analog event horizons.
 9. **[BOSE_EINSTEIN_CONDENSATE_INTEGRATION.md](./BOSE_EINSTEIN_CONDENSATE_INTEGRATION.md)** – Specifications for integrating an ultracold Bose-Einstein Condensate at the coordinate origin to achieve velocity collapse and model analogue Hawking radiation for high-energy CERN detector architectures.
 10. **[BUSINESS_EVALUATION.md](./BUSINESS_EVALUATION.md)** – Strategic business evaluation, commercial market verticals, Munich-Garching regional hub sourcing, capital allocation matrices, and the deep-tech industrial roadmap.
-11. **[SMC-EHA_The_Book.md](./SMC-EHA_The_Book.md)** – **The Complete Orbital Compendium (v1.5.0):** The definitive full-length textbook merging all physical, simulation, industrial, and cinematic layers into a single un-decaying master file.
 ---
 
 ## 1. Physical Parameter Mapping
