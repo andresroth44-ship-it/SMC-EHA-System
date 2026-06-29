@@ -1,6 +1,6 @@
 # Supercooled Mesomorphic Crystalline Event Horizon Absorber (SMC-EHA / Pito-Core)
 
-This repository contains the complete open-source physical specification, molecular dynamics (GROMACS), continuum mechanics (COMSOL) parameter models, and the newly generated formal axioms of **Topological Chrono-Arithmetic (TCA)** for the Pito-Core system architecture. 
+This repository contains the complete open-source physical specification, molecular dynamics (GROMACS), continuum mechanics (COMSOL) parameter models, the formal axioms of **Topological Chrono-Arithmetic (TCA)**, and the macroscopic material transference metrics for the Pito-Core system architecture. 
 
 The platform traps and preserves high-density coherent radiation fields inside a topological vortex core via a non-destructive Bound State in the Continuum (BIC) with an asymptotic quality factor Q → ∞, acting simultaneously as an infinite-dimensional, zero-entropy analog computing engine.
 
@@ -10,7 +10,7 @@ The platform traps and preserves high-density coherent radiation fields inside a
 
 To navigate the complete, multi-disciplinary architecture of the Pito-Core platform, explore the specialized sub-specifications below:
 
-0. **[SMC-EHA_The_Book.md](./SMC-EHA_The_Book.md)** – **The Complete Quantum Materia Compendium (v1.5.5):** The definitive full-length textbook merging all physical, simulation, industrial, geophysical, mathematical (TCA), and cinematic layers into a single un-decaying master file on the absolute origin.
+0. **[SMC-EHA_The_Book.md](./SMC-EHA_The_Book.md)** – **The Complete Quantum Materia Compendium (v1.5.7):** The definitive full-length textbook merging all physical, simulation, industrial, geophysical, mathematical (TCA), and transmitter-beaming layers into a single un-decaying master file on the absolute origin.
 1. **[GLOSSARY.md](./GLOSSARY.md)** – Comprehensive definitions of the core physical, quantum-optical, thermodynamic, and chrono-arithmetic terms used across this specification.
 2. **[WARP_METRIC.md](./WARP_METRIC.md)** – Advanced mathematical mapping of transformation optics, negative group velocity, and the photonic Alcubierre warp analog.
 3. **[TOPOLOGICAL_COMPUTING.md](./TOPOLOGICAL_COMPUTING.md)** – Specifications for utilizing the matrix as an analog, non-linear optical equation solver for Navier-Stokes, Schrödinger (NLSE), logarithmic Kummer-series, and biomimetic neuromorphic (Hodgkin-Huxley/Positronic) networks.
