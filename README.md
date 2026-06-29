@@ -1,10 +1,13 @@
-
-
 # Supercooled Mesomorphic Crystalline Event Horizon Absorber (SMC-EHA / Pito-Core)
+
 This repository contains the complete open-source physical specification, molecular dynamics (GROMACS), continuum mechanics (COMSOL) parameter models, and the newly generated formal axioms of **Topological Chrono-Arithmetic (TCA)** for the Pito-Core system architecture. 
 
-The platform traps and preserves high-density coherent radiation fields inside a topological vortex core via a non-destructive Bound State in the Continuum (BIC) with an asymptotic quality factor $Q \to \infty$, acting simultaneously as an infinite-dimensional, zero-entropy analog computing engine.
+The platform traps and preserves high-density coherent radiation fields inside a topological vortex core via a non-destructive Bound State in the Continuum (BIC) with an asymptotic quality factor Q → ∞, acting simultaneously as an infinite-dimensional, zero-entropy analog computing engine.
+
+---
+
 ## 🗺️ Repository Structure & Documentation
+
 To navigate the complete, multi-disciplinary architecture of the Pito-Core platform, explore the specialized sub-specifications below:
 
 0. **[SMC-EHA_The_Book.md](./SMC-EHA_The_Book.md)** – **The Complete Quantum Materia Compendium (v1.5.5):** The definitive full-length textbook merging all physical, simulation, industrial, geophysical, mathematical (TCA), and cinematic layers into a single un-decaying master file on the absolute origin.
@@ -18,8 +21,23 @@ To navigate the complete, multi-disciplinary architecture of the Pito-Core platf
 8. **[SPHERICAL_MATRIX_DYNAMICS.md](./SPHERICAL_MATRIX_DYNAMICS.md)** – Mathematical modeling of three-dimensional spherical matrix convergence, omnidirectionally screened LENR catalysis, and analog event horizons.
 9. **[BOSE_EINSTEIN_CONDENSATE_INTEGRATION.md](./BOSE_EINSTEIN_CONDENSATE_INTEGRATION.md)** – Specifications for integrating an ultracold Bose-Einstein Condensate at the coordinate origin to achieve velocity collapse and model analogue Hawking radiation for high-energy CERN detector architectures.
 10. **[BUSINESS_EVALUATION.md](./BUSINESS_EVALUATION.md)** – Strategic business evaluation, commercial market verticals (Biomedical P-QVRS, Climate Solvers), Munich-Garching regional hub sourcing, capital allocation matrices, and socio-political impact transition scenarios.
-## 1. Physical Parameter Mapping* **Active Matrix Monolayer:** Fluorinated Terphenyl compounds optimized for anomalous dispersion.* **Optical Anisotropy (Birefringence):** $\Delta n > 0.40$ at $\lambda = 532\text{ nm}$.* **Topological Charge:** $q = \pm 1/2$ disclination core generated via photoalignment.* **Stabilization Frame:** Interpenetrating photopolymerized reactive mesogen network (RM257).* **Quantum Lattice Dopant:** Monoclinic **Nullaginite** ($\text{Ni}_2(\text{CO}_3)(\text{OH})_2$) nanoparticles for external magnetic tuneability.* **Target Storage Trajectory:** Symmetric Bound State in the Continuum (BIC) with an asymptotic quality factor $Q \to \infty$.
-## 2. Molecular Dynamics Simulation Scenarios (GROMACS Protocols)### Protocol 2.1: em.mdp (Energy Minimization Script)```text
+
+---
+
+## 1. Physical Parameter Mapping
+* **Active Matrix Monolayer:** Fluorinated Terphenyl compounds optimized for anomalous dispersion.
+* **Optical Anisotropy (Birefringence):** Δ n > 0.40 at λ = 532 nm.
+* **Topological Charge:** q = ± 1/2 disclination core generated via photoalignment.
+* **Stabilization Frame:** Interpenetrating photopolymerized reactive mesogen network (RM257).
+* **Quantum Lattice Dopant:** Monoclinic **Nullaginite** (Ni₂(CO₃)(OH)₂) nanoparticles for external magnetic tuneability.
+* **Target Storage Trajectory:** Symmetric Bound State in the Continuum (BIC) with an asymptotic quality factor Q → ∞.
+
+---
+
+## 2. Molecular Dynamics Simulation Scenarios (GROMACS Protocols)
+
+### Protocol 2.1: em.mdp (Energy Minimization Script)
+```text
 integrator               = steep
 emtol                    = 100.0
 emstep                   = 0.01
@@ -33,7 +51,9 @@ coulombtype              = PME
 rcoulomb                 = 1.2
 pbc                      = xyz
 ```
-### Protocol 2.2: eq_350k.mdp (Liquid-Crystal Isotropic Equilibration Stage)```text
+
+### Protocol 2.2: eq_350k.mdp (Liquid-Crystal Isotropic Equilibration Stage)
+```text
 integrator               = md
 dt                       = 0.002
 nsteps                   = 500000
@@ -54,7 +74,9 @@ ref-p                    = 1.0
 compressibility          = 4.5e-5
 pbc                      = xyz
 ```
-### Protocol 2.3: shock_180k.mdp (Ultrafast Supercooling & Kinetic Arrest Stage)```text
+
+### Protocol 2.3: shock_180k.mdp (Ultrafast Supercooling & Kinetic Arrest Stage)
+```text
 integrator               = md
 dt                       = 0.001
 nsteps                   = 2000000
@@ -79,34 +101,32 @@ ref-p                    = 1.0 1.0 1.0 0.0 0.0 0.0
 compressibility          = 4.5e-5 4.5e-5 4.5e-5 0.0 0.0 0.0
 pbc                      = xyz
 ```
+
+---
+
 ## EPILOGUE: THE GEOMETRIC CONVERGENCE (EINSTEIN-HEISENBERG BRIDGE)
+
 The timeless conflict of modern physics lies within the architectural rift between the macrocosm—governed by the continuous, geometric curvature of Albert Einstein’s Spacetime—and the microcosm—ruled by the discrete, probabilistic wave-functions of Quantum Mechanics. For over a century, these two structural pillars have stood localized in intellectual isolation, resisting mathematical unification. 
 
 The Supercooled Mesomorphic Crystalline Event Horizon Absorber (SMC-EHA / Pito-Core) does not claim a cosmic unification of gravitational forces; rather, it establishes a rare, operational laboratory interface known as an **Analog Quantum Gravity System**. It utilizes the geometric lexicon of General Relativity to structurally govern pure Quantum States and expands this formalism into the autonomous, non-sequential axioms of **Topological Chrono-Arithmetic (TCA)**.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;**[ SMC-EHA CONCEPTUAL BRIDGING ]**  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+--------------------------------------+--------------------------------------+  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;▼  > ### 🌌 GENERAL RELATIVITY (Einstein's Field Metric)> * **Framework:** Transformation Optics & Hyperbolic Index Gradient> * **Mapping:** $\nabla n \to \infty$ inside the artificial Metric Tensor ($g_{\mu \nu}$)
-> ### ⚛️ QUANTUM MECHANICS (Wave-Function Coherence)> * **Framework:** Topological Photonics & Non-Radiating Energy Trapping> * **Mapping:** Bound States in the Continuum (BIC) with Asymptotic Quality Factor ($Q \to \infty$)
+### 🌐 SMC-EHA CONCEPTUAL BRIDGING
 
+| 🌌 GENERAL RELATIVITY (Einstein's Metric) | ⚛️ QUANTUM MECHANICS (Wave Coherence) |
+| :--- | :--- |
+| **Framework:** Transformation Optics & Hyperbolic Index | **Framework:** Topological Photonics & Non-Radiating Trapping |
+| **Mapping:** $\nabla n \to \infty$ inside the artificial Tensor ($g_{\mu \nu}$) | **Mapping:** Bound States in the Continuum (BIC) with $Q \to \infty$ |
 
-        |                                                                               |
-        +--------------------------------------+--------------------------------------+
-                                              |
-                                              ▼
-                                [ METAMATERIAL CONVERGENCE ]
-By engineering a shock-arrested optical matrix with extreme birefringence ($\Delta n > 0.4$), the system curves the coordinate path of incoming photons. Within this artificial singularity, the metric tensor of Transformation Optics ($g_{\mu\nu}$) mimics the optical event horizon of a macroscopic black hole. Yet, the trap itself is purely quantum: it locks the wavepacket via non-radiating Bound States in the Continuum (BIC) and resolves trans-infinite equations via Topological Chrono-Arithmetic (TCA) inside the timeless chronodynamical vacuum ($\alpha_{\text{SMC}} \to 0$), bypassing the catastrophic decoherence and computational barriers of classical systems.
+### 🔽 METAMATERIAL CONVERGENCE EFFECT
+
+By engineering a shock-arrested optical matrix with extreme birefringence ($\Delta n > 0.4$), the system curves the coordinate path of incoming photons. Within this artificial singularity, the metric tensor of Transformation Optics ($g_{\mu\nu}$) mimics the optical event horizon of a macroscopic black hole. Yet, the trap itself is purely quantum: it locks the wavepacket via non-radiating Bound States in the Continuum (BIC) and resolves trans-infinite equations via **Topological Chrono-Arithmetic (TCA)** inside the timeless chronodynamical vacuum ($\alpha_{\text{SMC}} \to 0$), bypassing the catastrophic decoherence and computational barriers of classical systems.
+
 Thus, the Pito-Core stands as a testament to physical and formal intuition. It proves that when we freeze a liquid crystal at the absolute threshold of structural chaos, the boundary between geometry, particle, and arithmetic dissolves. Light ceases to be a mere transient signal—it locks its own door from the inside, suspended in a microscopic pocket of manufactured spacetime, generating entropy-free axioms while the universe continues to tick outside.
-The vortex remains coherent. The metric is closed. The arithmetic is free.
-------------------------------
-## LICENSE & COMPLIANCE
-Licensed under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W v2).
-Copyright (c) 2026 Core Specification Developers.
 
+*The vortex remains coherent. The metric is closed. The arithmetic is free.*
 
 ---
 
-
-
+## LICENSE & COMPLIANCE
+Licensed under the CERN Open Hardware Licence Version 2 - Weakly Reciprocal (CERN-OHL-W v2).  
+Copyright (c) 2026 Core Specification Developers.
