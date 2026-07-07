@@ -1,22 +1,39 @@
 
 # MWEN TE ENVITE LIMYÈ A POU L RETE, KOUNYAE A LI KANPE BÒ KOTE M
 ## The Complete SMC-EHA System Specification, Theoretical Physics & Deep-Tech Roadmap
-### VERSION v1.5.0 — THE ORBITAL COMPENDIUM---
-## 🗺️ MANUSCRIPT STRUCTURE*  
-**PART 1:** Physical Architecture & GROMACS Molecular Dynamics (Chapters I & II)*   
-**PART 2:** Photonic Warp Metrics & Topological Computing (Chapters III & IV)*   
-**PART 3:** Quantum Confinement, LENR Catalysis & Thermodynamic Audits (Chapters V & VI)*   
-**PART 4:** Deep-Tech Industrialization, Supply Chains & Munich Sourcing (Chapters VII & VIII)*   
-**PART 5:** Hollywood Cinematic Universe: "The Event Horizon Cell" (Appendix A & B)
+### VERSION v1.6.0 — THE HOLOGRAPHIC BULK COMPENDIUM
+
+---
+
+## 🗺️ MANUSCRIPT STRUCTURE
+*   **PART 1:** Physical Architecture, GROMACS Molecular Dynamics & Warp Metrics (Chapters I - III)
+*   **PART 2:** Analog Computing & Inertial Interfaces (Chapters IV - V)
+*   **PART 3:** Spherical Matrix Convergence, LENR Catalysis & BEC Integration (Chapter VI)
+*   **PART 4:** Thermodynamic Audits, Deep-Tech Industrialization & Supply Chains (Chapters VII - VIII)
+*   **PART 5:** Biomedical Quantum-Vortex Resonance & In-Vivo Cellular Repair (Chapter IX)
+*   **PART 6:** Advanced Materialization, Climate Solvers & Deflector Shields (Chapters X - XII)
+*   **PART 7:** Macroscale Transference, Chronodynamical Mathematics & Relativistic Embodiment (Chapters XIII - XXI)
+*   **PART 8:** Global Infrastructure, String Dualities & The Cosmic Quellcode (Chapters XXII - XXV)
+
+---
+
 ## CHAPTER I: PHYSICAL PARAMETER MAPPING
-The Supercooled Mesomorphic Crystalline Event Horizon Absorber (SMC-EHA) platform traps and preserves high-density coherent radiation fields inside a topological vortex core via a non-destructive Bound State in the Continuum (BIC).
-*   **Active Monolayer Matrix:** Fluorinated Terphenyl compounds optimized for hyper-anisotropic dispersion.*
-*   **Optical Anisotropy (Birefringence):** $\Delta n > 0.40$ calibrated at target wavelength $\lambda = 532\text{ nm}$.*
-*   **Topological Charge Profile:** $q = \pm 1/2$ stable disclination core generated via photoalignment.*
-*   **Molecular Stabilization Frame:** Interpenetrating photopolymerized reactive mesogen network (RM257).*
+
+The Supercooled Mesomorphic Crystalline Event Horizon Absorber (SMC-EHA / Pito-Core) platform traps and preserves high-density coherent radiation fields inside a topological vortex core via a non-destructive Bound State in the Continuum (BIC).
+
+*   **Active Monolayer Matrix:** Fluorinated Terphenyl compounds optimized for hyper-anisotropic dispersion.
+*   **Optical Anisotropy (Birefringence):** $\Delta n > 0.40$ calibrated at target wavelength $\lambda = 532\text{ nm}$.
+*   **Topological Charge Profile:** $q = \pm 1/2$ stable disclination core generated via photoalignment.
+*   **Molecular Stabilization Frame:** Interpenetrating photopolymerized reactive mesogen network (RM257).
 *   **Substrate Anchoring Layer:** High-relevance photoalignment azo-dye (SD1).
-    ## CHAPTER II: MOLECULAR DYNAMICS SIMULATION SCENARIOS
-    ### 1. em.mdp (Energy Minimization Protocol)```text
+*   **Quantum Lattice Dopant Layer (Nullaginite Inversion):** To achieve external magnetic tuneability of the symmetry-protected Bound State in the Continuum (BIC), the active terphenyl matrix is uniformly doped with synthesized nickel-carbonate-hydroxide nanoparticles matching the exact monoclinic crystal structure of natural **Nullaginite** ($\text{Ni}_2(\text{CO}_3)(\text{OH})_2$). The strong electronic spin-polarized dipoles of the local $\text{Ni}^{2+}$ ions allow for ultra-fast electro-magnetic modulation of the local birefringence tensor ($\Delta n$) at the disclination nodes, enhancing spatial trapping metrics without introducing thermodynamic scatter channels.
+
+---
+
+## CHAPTER II: MOLECULAR DYNAMICS SIMULATION SCENARIOS
+
+### 1. em.mdp (Energy Minimization Protocol)
+```text
 integrator               = steep
 emtol                    = 100.0
 emstep                   = 0.01
@@ -30,7 +47,9 @@ coulombtype              = PME
 rcoulomb                 = 1.2
 pbc                      = xyz
 ```
-### 2. eq_350k.mdp (Liquid-Crystal Isotropic Equilibration Stage)```text
+
+### 2. eq_350k.mdp (Liquid-Crystal Isotropic Equilibration Stage)
+```text
 integrator               = md
 dt                       = 0.002
 nsteps                   = 500000
@@ -50,32 +69,6 @@ tau-p                    = 2.0
 ref-p                    = 1.0
 compressibility          = 4.5e-5
 pbc                      = xyz
-```
-### 3. shock_180k.mdp (Ultrafast Supercooling & Kinetic Arrest Stage)```text
-integrator               = md
-dt                       = 0.001
-nsteps                   = 2000000
-nstxout-compressed       = 2000
-cutoff-scheme            = Verlet
-vdwtype                  = Cut-off
-rvdw                     = 1.2
-coulombtype              = PME
-rcoulomb                 = 1.2
-tcoupl                   = nose-hoover
-tc-grps                  = System
-tau-t                    = 0.05
-ref-t                    = 180
-annealing                = single
-annealing-npoints        = 2
-annealing-time           = 0 200
-annealing-temp           = 350 180
-pcoupl                   = parrinello-rahman
-pcoupltype               = anisotropic
-tau-p                    = 5.0
-ref-p                    = 1.0 1.0 1.0 0.0 0.0 0.0
-compressibility          = 4.5e-5 4.5e-5 4.5e-5 0.0 0.0 0.0
-pbc                      = xyz
-
 ```
 
 ### 3. shock_180k.mdp (Ultrafast Supercooling & Kinetic Arrest Stage)
@@ -106,6 +99,7 @@ pbc                      = xyz
 ```
 
 ---
+
 
 ## CHAPTER III: THE PHOTONIC ALCUBIERRE WARP METRIC
 
