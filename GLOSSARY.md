@@ -1,4 +1,6 @@
-## GLOSSAR: BEGRIFFSDEFINITIONEN (SMC-EHA SYSTEM)## Bound States in the Continuum (BIC)
+## GLOSSAR: BEGRIFFSDEFINITIONEN (SMC-EHA SYSTEM)
+
+## Bound States in the Continuum (BIC)
 Ein quantenmechanisches und wellenoptisches Phänomen, bei dem eine elektromagnetische Mode innerhalb eines kontinuierlichen Spektrums von Strahlungsmoden lokalisiert bleibt, ohne nach außen abzustrahlen. Im SMC-EHA-System wird durch exakte destruktive Interferenz im Fernfeld ein BIC-Zustand mit einem theoretisch unendlichen Qualitätsfaktor (Q → ∞) im Defektzentrum erzeugt.
 ## Chiraler Dotierstoff (Chiral Dopant)
 Eine optisch aktive, asymmetrische chemische Verbindung (im System: Azobenzol-verbrücktes BINOL), die einer flüssigkristallinen Matrix beigemischt wird, um eine helikale (spiralförmige) Verdrehung der Moleküle zu erzwingen. Dies ist die fundamentale Voraussetzung für die Ausbildung einer omnidirektionalen photonischen Bandlücke.
@@ -33,4 +35,61 @@ Flüssigkristalline Monomere, die an ihren Enden reaktive Acrylatgruppen tragen.
 ## Unterkühlung (Supercooling)
 Das Absenken der Temperatur einer Flüssigkeit unter ihren eigentlichen Gefrierpunkt, ohne dass der Phasenübergang zum Festkörper stattfindet. Das Medium verbleibt in einem flüssigen, aber thermodynamisch hochenergetischen und metastabilen Zustand.
 
+-------------------------------
 
+# SMC-EHA SYSTEM CORE GLOSSARY
+## Definitive Terminology, Quantum-Optical Axioms & Field Invariants
+### VERSION v1.6.5 — RUNTIME CORE SPECREFS
+
+---
+
+## 🗺️ GLOSSARY STRUCTURE
+This technical reference document provides the ironclad, non-perturbative definitions for the multi-disciplinary physical, mathematical, biological, and cosmological parameters governing the **SMC-EHA Pito-Core platform** and its associated structural macro-infrastructures.
+
+---
+
+### 🔤 ALPHABETICAL DEFINITIONS
+
+#### AUM-Matrix (Holographic Boundary Schnittstelle)
+The cosmic, phase-isolated boundary domain that bifurcates the universal spacetime bulk into mirror-symmetric Baryonic Matter and Anti-Baryonic Antimatter sectors. It serves as the primary coordination layer where forward-time phase information and retrocausal anti-phase vectors undergo a complete unitary field inversion, converting pure electromagnetic field entropy into stable baryonic mass tensors without thermal dissipation ($\Delta T = 0$).
+
+#### Bound State in the Continuum (BIC)
+A symmetry-protected, non-radiating quantum-optical wave state characterized by an asymptotic quality factor $Q \to \infty$. Within the vitrified terphenyl monolayer matrix, the BIC encapsulates and traps high-density coherent radiation fields at specific disclination nodes, completely preventing radiative leakage and enforcing a localized group velocity collapse ($\lim v_g = 0$).
+
+#### Chronodynamical Age ($\tau_{\text{AUM}}$)
+The true, scale-dependent quantum-phase age of the universal bulk spacetime. Bypassing the linear constraints of classical FLRW expanding models, it integrates proper time as an inverse function of localized volume scale, demonstrating that time approaches an absolute freeze within the Planck-scale genesis node, mapping the origin of the cosmos as an eternal, non-sequential geometric unfolding.
+
+#### Fractal Cosmological Constant ($\Lambda_{\text{fractal}}$)
+The scale-dependent, geometrically renormalized vacuum energy density ($\rho_{\text{vac}}$) established natively via the sub-wavelength boundaries of the 27-unit Sierpiński lattice. By mapping zero-point ultraviolet quantum fluctuations onto a self-similar fractal manifold, it induces destructive interference cascades across the nested voids, converting infinite divergent fields into a stable, non-perturbative tensor state ($\nabla \cdot \mathbf{\sigma}_{\text{vacuum}} = \vec{0}$).
+
+#### High Tide Root Definition (The Field Invariant)
+The absolute, fundamental operational state where incoming wave-front patterns or gravitational tidal potentials reach their maximal constructive interference and volumetric energy density within a closed system boundary ($\partial \Omega$). This state represents the absolute maximum of local vacuum saturation—where entropy drops to zero, and the local spacetime clock vector freezes ($\alpha_{\text{SMC}} \to 0 \implies d\tau/dt \to 0$)—immediately preceding a directed phase-inverted kinetic discharge vector or automated materialization loop.
+
+#### Low-Stress Membrane Isolation (Si₃N₄ Shield)
+A freestanding, ultra-thin 50 nm silicon nitride lattice suspended in an ultra-high vacuum chamber ($<10^{-8}\text{ mbar}$). Acting as an inertial topological low-pass filter, its specific mass inertia completely dampens classical electronic and acoustic circuit noise, establishing a bidirectional, non-thermal interface channel between quantum polariton fields and biological neural networks.
+
+#### Nullaginite Inversion Dopant
+Synthesized monoclinic nickel-carbonate-hydroxide ($\text{Ni}_2(\text{CO}_3)(\text{OH})_2$) nanoparticles interpenetrating the active mesomorphic crystalline matrix. The strong, spin-polarized electronic dipoles of the localized $\text{Ni}^{2+}$ ions enable ultra-fast, external non-contact magnetic modulation of the global birefringence tensor ($\Delta n > 0.40$), stabilizing the internal topological charge profiles without inducing thermal scatter channels.
+
+#### Pascal-Pressure Equalization ($\nabla \cdot \mathbf{\sigma} = \vec{0}$)
+The fluid-dynamic mechanical safety protocol wherein directional photon momentum transfers or severe external kinetic strikes are converted instantly into an isotropic hydrostatic pressure distribution. Operating via an incompressible, hyper-compressible mesomorphic quantum fluid shell, it balances mechanical shear stress tensors symmetrically across all 360 degrees of the internal geodetic framework, preventing micro-fractures during high-intensity switching events.
+
+#### Pitochondrien (Biomimetic mtDNA Pito-Core)
+The microscopic, endosymbiotic cellular energy-transmutation modules operating within biological organisms. Functioning as natural analogues to macroscale light-trapping matrices, Pitochondrien leverage closed, circular mitochondrial DNA (mtDNA) structures as a topologically protected, un-decaying infinite loop. This architecture allows them to process non-local phase-locked bio-photon packets and execute cellular actions at zero-entropy and absolute thermodynamic efficiency ($\Delta T = 0$).
+
+#### Pito-Holographic Potentization (Ghost Globuli)
+A quantum-optical extraction mechanism wherein the macroscopic physical mass of a chemical or biochemical agent is completely eliminated via a selective Quantum Ghost Imaging (QGI) abstraction node. The agent's complex, non-local $L^2$-norm state tensor and phase-symmetries are encoded bitwise via Kummer-Series Inversion and permanently imprinted into the neutral atomic lattice coordinates of an un-decaying crystalline carrier medium, enabling targeted biomimetic neural corrections without substance-induced chemical toxicity.
+
+#### Spontaneous Parametric Down-Conversion (SPDC)
+The non-linear quantum-optical translation process executed at the spin-polarized Nullaginite crystal boundaries, where an incoming high-energy ultraviolet Master Photon ($\lambda = 266\text{ nm}$) splits into two entangled daughter photons possessing exact sub-harmonic frequencies ($\lambda = 532\text{ nm}$). This phase-locked state splitting forms the core hardware backbone for non-local inter-core multiplexing and zero-latency data synchronization across planetary grids.
+
+#### Topological Chrono-Arithmetic (TCA)
+An autonomous, non-sequential formal mathematical system that maps binary operators ($\oplus, \otimes$) and infinite logarithmic singularities directly onto physical wave interference profiles inside the timeless storage cavity ($\alpha_{\text{SMC}} \to 0, t_{\text{eigen}} = 0$). By bypassing discrete instruction queues, TCA resolves multi-body tensor matrices simultaneously via pure constructive and destructive phase modulation.
+
+#### Zeolite Freezing (Confinement Arrest)
+The physical phenomenon wherein target fluid or gas molecules are trapped inside highly ordered, multi-dimensional Alumosilicat nanostructures (poren within the angstrom scale). The hyper-polarized electrostatic boundary charges of the porous framework cage the molecular dipoles so intensely that their kinetic thermal movement collapses, freezing the aggregate state into a rigid, zero-entropy structural matrix far above standard macroscopic freezing coordinates.
+
+---
+
+## 🛑 REFERENCE VALIDATION MATRIX
+All terminologies and structural invariants defined in this reference matrix correspond identically to the mathematical frameworks compiled within **SMC-EHA_The_Book.md** and **SPHERICAL_MATRIX_DYNAMICS.md**. Modification of these baseline root definitions requires an absolute phase-synchronization commit executed natively via the **Pito-OS** cognitive execution layer under verified Root-Access authorization.
