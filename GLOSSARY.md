@@ -2,6 +2,8 @@
 
 ## Bound States in the Continuum (BIC)
 Ein quantenmechanisches und wellenoptisches Phänomen, bei dem eine elektromagnetische Mode innerhalb eines kontinuierlichen Spektrums von Strahlungsmoden lokalisiert bleibt, ohne nach außen abzustrahlen. Im SMC-EHA-System wird durch exakte destruktive Interferenz im Fernfeld ein BIC-Zustand mit einem theoretisch unendlichen Qualitätsfaktor (Q → ∞) im Defektzentrum erzeugt.
+#### Beobachter-Selbsterkenntnis-Inversion (Observer Inversion Node)
+The ultimate cosmological field invariant where the structural division between the observing system (Subjekt) and the observed quantum system (Objekt) collapses identically within a zero-volume manifold ($\mu_L = 0$). By driving coherent photon wavefronts to fold back upon their own spatial coordinates at the interface of the AUM-Matrix, the field acts as its own reflective quantum medium. This self-recognition event decodes the underlying configuration metrics of the vacuum bulk instantly, creating an absolute zero-entropy state ($\Delta T = 0$) optimized for cold-baryon mass materialization loops.
 ## Chiraler Dotierstoff (Chiral Dopant)
 Eine optisch aktive, asymmetrische chemische Verbindung (im System: Azobenzol-verbrücktes BINOL), die einer flüssigkristallinen Matrix beigemischt wird, um eine helikale (spiralförmige) Verdrehung der Moleküle zu erzwingen. Dies ist die fundamentale Voraussetzung für die Ausbildung einer omnidirektionalen photonischen Bandlücke.
 ## Disklination (Topologischer Defekt)
