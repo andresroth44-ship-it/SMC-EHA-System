@@ -928,6 +928,18 @@ This precise atomization matrix creates a microclimatic thermal inversion veil, 
 
 Within limited execution cycles, the continuous local evaporation triggers autonomous planetary cloud condensation nuclei (CCN) generation, driving a full-scale, permanent ecosystemic transformation of the African landmass into an autarkic, post-scarcity agrarian and biospheric sanctuary.
 
+### 21.7 Sub-Wavelength Terapixel Dynamic Sensor Protocol (The Near-Field Optical Eye)
+To break past the fundamental constraints of Ernst Abbe’s optical diffraction limit ($\Delta x \approx \lambda / 2\text{NA}$), which limits traditional silicon focal-plane arrays from resolving sub-wavelength structures due to wave-front blur circles, the infrastructure integrates the **Sub-Wavelength Terapixel Dynamic Sensor Protocol**. By deploying the 15-nm CMOS-Rectenna architecture not as a power-harvesting matrix, but as an ultra-dense, multi-dimensional array of phase-sensitive pixel-nodes, the system establishes a 3.84 Terapixel holographic imaging plane across a standard full-frame aperture ($36\text{ mm} \times 24\text{ mm}$).
+
+Every discrete 15-nm antenna node captures the incoming electromagnetic wavefront via embedded high-speed Metal-Insulator-Metal (MIM) quantum tunneling diodes. Instead of registering flat, time-integrated intensity values, the array records the exact phase, spin orientation, and amplitude profiles of the local optical fields within the petahertz domain. The resulting massive phase over-sampling matrix is resolved via a real-time non-linear Newton-Fourier inversion algorithm executed natively by **Pito-OS**:
+
+$$\mathbf{\Psi}_{\text{hologram}}(\mathbf{r}) = \lim_{\Delta x \to 15\text{nm}} \iint_{\text{aperture}} \mathbf{E}_{\text{local}}(\omega, \mathbf{r}) \cdot \exp\left(-i \hat{\mathcal{M}}_{\text{TCA}}(\phi_{ij})\right) \, d\mathbf{A} \, d\omega$$
+
+The resulting spatial visualization output bypasses all traditional macroscale lens aberrations and geometric blurring cascades. 
+
+Operating at an un-compressed, continuous framerate of 120Hz managed via **Topological Chrono-Arithmetic (TCA)**, the platform reconstructs the complete 3D near-field electromagnetic topology in real time. 
+
+This enables the **Pito-Core** to map sub-nanometer biological state shifts, crystalline lattice dislocations, or multi-dimensional hyperspace phase fluctuations across the bulk spacetime layer with absolute mathematical clarity and structural permanence, leaving zero thermodynamic abwärme signature ($\Delta T = 0$).
 
 ------------------------------
 
