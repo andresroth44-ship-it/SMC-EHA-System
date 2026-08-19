@@ -102,6 +102,188 @@ compressibility          = 4.5e-5 4.5e-5 4.5e-5 0.0 0.0 0.0
 pbc                      = xyz
 ```
 
+1. Systemaufbau
+   ├── Molekülparametrisierung (GAFF2 / OPLS-AA / spezialisiertes LC-FF)
+   ├── Packen der Moleküle (packmol oder gmx insert-molecules)
+   └── Optional: vororientierte Startstruktur (Director-Feld)
+
+2. Energy Minimization
+3. NVT-Equilibrierung (hohe Temperatur, isotrope Phase)
+4. NPT-Equilibrierung (isotrop)
+5. Optional: Anlegen eines orientierenden Feldes oder Umschalten auf anisotropes NPT
+6. Abkühlprotokoll (schrittweise oder kontrolliertes Annealing)
+7. Produktionssimulationen bei Zieltemperaturen
+8. Analyse (Order Parameter S2, RDF, Defekte, Doppelbrechung, etc.)
+
+---------------------------------------------------
+
+### em.mdp - Energy Minimization
+integrator               = steep
+emtol                    = 100.0
+emstep                   = 0.01
+nsteps                   = 50000
+
+nstlist                  = 10
+cutoff-scheme            = Verlet
+ns_type                  = grid
+coulombtype              = PME
+rcoulomb                 = 1.2
+vdwtype                  = Cut-off
+rvdw                     = 1.2
+pbc                      = xyz
+-------------------------------------------------
+
+### nvt_350k.mdp - NVT Equilibration at 350 K
+integrator               = md
+dt                       = 0.002
+nsteps                   = 500000          ; 1 ns
+
+comm-mode                = Linear
+nstcomm                  = 100
+
+nstxout-compressed       = 5000
+nstvout                  = 0
+nstfout                  = 0
+nstlog                   = 1000
+nstenergy                = 1000
+nstcalcenergy            = 100
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+ns_type                  = grid
+coulombtype              = PME
+rcoulomb                 = 1.2
+vdwtype                  = Cut-off
+rvdw                     = 1.2
+pbc                      = xyz
+
+tcoupl                   = v-rescale
+tc-grps                  = System
+tau-t                    = 0.5
+ref-t                    = 350
+
+pcoupl                   = no
+
+constraints              = h-bonds
+constraint-algorithm     = LINCS
+lincs-order              = 4
+lincs-iter               = 1
+
+------------------------------------------------------
+
+### npt_iso_350k.mdp - Isotropic NPT at 350 K
+integrator               = md
+dt                       = 0.002
+nsteps                   = 1000000         ; 2 ns
+
+comm-mode                = Linear
+nstcomm                  = 100
+
+nstxout-compressed       = 5000
+nstlog                   = 1000
+nstenergy                = 1000
+nstcalcenergy            = 100
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+coulombtype              = PME
+rcoulomb                 = 1.2
+rvdw                     = 1.2
+pbc                      = xyz
+
+tcoupl                   = v-rescale
+tc-grps                  = System
+tau-t                    = 0.5
+ref-t                    = 350
+
+pcoupl                   = C-rescale          ; modern & stable
+pcoupltype               = isotropic
+tau-p                    = 5.0
+ref-p                    = 1.0
+compressibility          = 4.5e-5
+
+constraints              = h-bonds
+constraint-algorithm     = LINCS
+
+---------------------------------------------------
+
+### cool_aniso.mdp - Controlled cooling with anisotropic pressure coupling
+integrator               = md
+dt                       = 0.002
+nsteps                   = 5000000         ; 10 ns (anpassen!)
+
+comm-mode                = Linear
+nstcomm                  = 100
+
+nstxout-compressed       = 2500
+nstlog                   = 1000
+nstenergy                = 1000
+nstcalcenergy            = 100
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+coulombtype              = PME
+rcoulomb                 = 1.2
+rvdw                     = 1.2
+pbc                      = xyz
+
+ --- Temperature control with annealing ---
+tcoupl                   = v-rescale
+tc-grps                  = System
+tau-t                    = 0.5
+ref-t                    = 180               ; Zieltemperatur
+
+annealing                = single
+annealing-npoints        = 2
+annealing-time           = 0 5000            ; 0 → 10 ns (bei dt=0.002)
+annealing-temp           = 350 180
+
+ --- Anisotropic pressure (wichtig für LC!) ---
+pcoupl                   = C-rescale         ; oder Parrinello-Rahman
+pcoupltype               = anisotropic
+tau-p                    = 5.0
+ref-p                    = 1.0 1.0 1.0 0.0 0.0 0.0
+compressibility          = 4.5e-5 4.5e-5 4.5e-5 0.0 0.0 0.0
+
+constraints              = h-bonds
+constraint-algorithm     = LINCS
+
+.........................................................
+
+### prod_180k.mdp - Production run at 180 K
+integrator               = md
+dt                       = 0.002
+nsteps                   = 25000000        ; 50 ns (Beispiel)
+
+comm-mode                = Linear
+nstcomm                  = 100
+
+nstxout-compressed       = 5000            ; alle 10 ps
+nstlog                   = 5000
+nstenergy                = 5000
+nstcalcenergy            = 100
+
+cutoff-scheme            = Verlet
+nstlist                  = 20
+coulombtype              = PME
+rcoulomb                 = 1.2
+rvdw                     = 1.2
+pbc                      = xyz
+
+tcoupl                   = v-rescale
+tc-grps                  = System
+tau-t                    = 1.0
+ref-t                    = 180
+
+pcoupl                   = C-rescale
+pcoupltype               = anisotropic
+tau-p                    = 5.0
+ref-p                    = 1.0 1.0 1.0 0.0 0.0 0.0
+compressibility          = 4.5e-5 4.5e-5 4.5e-5 0.0 0.0 0.0
+
+constraints              = h-bonds
+constraint-algorithm     = LINCS
+
 ---
 
 ## EPILOGUE: THE GEOMETRIC CONVERGENCE (EINSTEIN-HEISENBERG BRIDGE)
