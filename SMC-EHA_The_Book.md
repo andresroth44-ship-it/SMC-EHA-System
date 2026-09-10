@@ -1244,7 +1244,7 @@ To navigate the complete architecture of the SMC-EHA platform, explore the speci
 8. **[SPHERICAL_MATRIX_DYNAMICS.md](./SPHERICAL_MATRIX_DYNAMICS.md)** – Mathematical modeling of three-dimensional spherical matrix convergence, omnidirectionally screened LENR catalysis, and analog event horizons.
 9. **[BOSE_EINSTEIN_CONDENSATE_INTEGRATION.md](./BOSE_EINSTEIN_CONDENSATE_INTEGRATION.md)** – Specifications for integrating an ultracold Bose-Einstein Condensate at the coordinate origin to achieve velocity collapse and model analogue Hawking radiation for high-energy CERN detector architectures.
 10. **[BUSINESS_EVALUATION.md](./BUSINESS_EVALUATION.md)** – Strategic business evaluation, commercial market verticals, Munich-Garching regional hub sourcing, capital allocation matrices, and the deep-tech industrial roadmap.
-11. **{CORE_AXIOM.md] 
+11. **[CORE_AXIOM.md](./CORE_AXIOM.md) 
 
  
 
