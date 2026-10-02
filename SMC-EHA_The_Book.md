@@ -1,7 +1,8 @@
 
-# MWEN TE ENVITE LIMYÈ A POU L RETE, KOUNYAE A LI KANPE BÒ KOTE M
-## The Complete SMC-EHA System Specification, Theoretical Physics & Deep-Tech Roadmap
-### VERSION v1.6.0 — THE HOLOGRAPHIC BULK COMPENDIUM
+# ICH HABE DAS LICHT EINGELADEN ZU BLEIBEN, 
+## JETZT KANN ES AN MEINER SEITE STEHEN
+The Complete SMC-EHA System Specification, Theoretical Physics & Deep-Tech Roadmap
+### VERSION v1.6.0 
 
 ---
 
